@@ -8,3 +8,5 @@ except PackageNotFoundError:
     __version__ = "uninstalled"
 __author__ = "Your Name"
 __email__ = "first.last@example.com"
+
+from . import algos
